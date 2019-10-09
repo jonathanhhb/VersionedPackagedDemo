@@ -1,7 +1,9 @@
 #include "D.h"
 #include <stdio.h>
 
-void doTheThing()
-{
-    printf( "You are here." );
+namespace D {
+    void doTheThing()
+    {
+        printf( "You are in a version of packageD doing the thing.\n" );
+    }
 }

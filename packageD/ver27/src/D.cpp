@@ -1,7 +1,10 @@
 #include "D.h"
 #include <stdio.h>
 
-void doTheThing()
+namespace D
 {
-    printf( "You are here." );
+    void doTheThing()
+    {
+        printf( "You are using a version of packageD.\n" );
+    }
 }

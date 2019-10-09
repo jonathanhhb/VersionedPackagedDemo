@@ -1,0 +1,6 @@
+g++ App.cpp \
+	-lA -L ../packageA/lib -I ../packageA/include \
+	-lB -L ../packageB/lib -I ../packageB/include \
+	-lC -L ../packageC/lib -I ../packageC/include \
+	-lD -L ../packageD/lib -I ../packageD/include \
+	-o App

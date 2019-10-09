@@ -5,6 +5,6 @@ namespace B
 {
     void doTheThing()
     {
-        printf( "You are here." );
+        printf( "You are in a version of packageB doing the thing.\n" );
     }
 }

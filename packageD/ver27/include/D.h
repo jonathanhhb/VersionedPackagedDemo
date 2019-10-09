@@ -1,1 +1,4 @@
-void doTheThing();
+namespace D
+{
+    void doTheThing();
+}
