@@ -1,0 +1,2 @@
+g++ -c src/B.cpp -I include -o bin/B.o
+ar rcs lib/libB.B bin/*.o
