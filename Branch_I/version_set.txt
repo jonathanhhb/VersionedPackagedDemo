@@ -1,0 +1,6 @@
+App
+packageA:ver1
+packageB:ver13
+packageC:ver6
+packageD:ver25
+
